@@ -21,6 +21,7 @@ with zipfile.ZipFile(archive,'x',compression=zipfile.ZIP_DEFLATED,compresslevel=
     extras=[(localapp/'GiaDungSandbox/bin/ngrok.exe','transfer-private/ngrok.exe'),(localapp/'ngrok/ngrok.yml','transfer-private/ngrok.yml')]
     for p,rel in extras:
         if p.is_file():z.write(p,'web-ban-do-gia-dung/'+rel)
+    z.writestr('web-ban-do-gia-dung/transfer-private/.htaccess','Require all denied\n')
     z.writestr('web-ban-do-gia-dung/database.sql/transfer-files.json',json.dumps(manifest,indent=2))
 with zipfile.ZipFile(archive) as z:
     if z.testzip():raise RuntimeError('Private archive failed CRC verification.')

@@ -1,6 +1,6 @@
 Options -Indexes
 RewriteEngine On
-RewriteRule ^(?:database\.sql|scripts|vendor)(?:/|$) - [F,L]
+RewriteRule ^(?:database\.sql|scripts|vendor|transfer-private)(?:/|$) - [F,L]
 RewriteRule ^web-ban-do-gia-dung(?:/(.*))?$ /web-ban-do-gia-dung/$1 [R=302,L]
 RewriteRule ^pages/tintuc-detail/([a-z0-9-]+)$ pages/tintuc-detail.php?slug=$1 [L,QSA]
 RewriteRule ^tin-tuc/([a-z0-9-]+)$ pages/tintuc-detail.php?slug=$1 [L,QSA]
