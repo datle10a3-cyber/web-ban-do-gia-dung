@@ -7,7 +7,7 @@ if not exist "%SHOP_XAMPP%\php\php.exe" (
   pause
   exit /b 1
 )
-"%SHOP_XAMPP%\php\php.exe" scripts\restore_transfer.php
+"%SHOP_XAMPP%\php\php.exe" scripts\restore_transfer.php --side-by-side
 if errorlevel 1 (
   echo Chua hoan tat. Xem thong bao phia tren.
 ) else (

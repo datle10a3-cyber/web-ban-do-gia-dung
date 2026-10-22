@@ -1,5 +1,7 @@
 # Gia Dụng Shop
 
+**Tải gói chuyển máy FULL:** [GitHub Releases](https://github.com/datle10a3-cyber/web-ban-do-gia-dung/releases/tag/chuyen-may-20261022). Gói FULL có dữ liệu hiện tại và cấu hình thật, được chủ dự án yêu cầu đưa lên để chuyển máy. Khi repository ở chế độ Public, gói tải cũng công khai.
+
 Website bán đồ gia dụng bằng PHP 8.2 và MySQL/MariaDB, chạy trên XAMPP. Có quản trị, tài khoản, danh mục, biến thể sản phẩm, giỏ hàng, voucher theo tài khoản, chatbot, Google/Facebook OAuth và VNPAY sandbox.
 
 ## Chạy bản public
@@ -18,7 +20,7 @@ Repo public chứa mã nguồn và dữ liệu mẫu. Khóa API, SMTP, secret OA
 Dùng file **GiaDungShop-FULL-PRIVATE-…zip** do chủ dự án lưu riêng. Gói này có toàn bộ thư mục gốc, thư viện, ảnh/video, `config/local.php`, cấu hình SMTP và snapshot database hiện tại.
 
 1. Giải nén thư mục `web-ban-do-gia-dung` vào `XAMPP/htdocs` trên máy mới.
-2. Bật MySQL trong XAMPP, chạy `CAI-DAT-MAY-MOI.cmd` một lần để khôi phục database. Script tự nhận ổ cài XAMPP, kiểm tra checksum và số bản ghi; không ghi đè database đã có dữ liệu.
+2. Bật MySQL trong XAMPP, chạy `CAI-DAT-MAY-MOI.cmd` một lần để khôi phục database. Script tự nhận ổ cài XAMPP, kiểm tra checksum và số bản ghi. Nếu đã có database bản public thì tự tạo database khác rồi cập nhật cấu hình kết nối; database cũ được giữ nguyên. Chạy lại bộ cài không nhập đè lên dữ liệu mới phát sinh.
 3. Bật Apache và mở địa chỉ localhost ở trên. Cấu hình kết nối mặc định: MySQL `127.0.0.1:3306`, database `web_gia_dung`, user `root`; nếu máy mới dùng thiết lập khác thì sửa `config/local.php`.
 
 Facebook và IPN VNPAY cần ngrok/HTTPS hoạt động trên **máy mới**, không chỉ Apache/MySQL. Bản đầy đủ riêng kèm ngrok và cấu hình đã có; bước cài đặt chỉ chép vào máy mới khi chưa có, không ghi đè cấu hình ngrok sẵn có. Chạy `BAT-HTTPS-SANDBOX.cmd` để bật kết nối. Nếu URL ngrok thay đổi, cập nhật callback Meta và IPN VNPAY cho khớp. Chỉ chạy tunnel này trên một máy tại một thời điểm. Google dùng callback localhost cũ khi giữ nguyên tên thư mục và cổng Apache 80. Phiên đăng nhập trình duyệt và tiến trình đang chạy không được chuyển qua bằng ZIP/Git.
