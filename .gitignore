@@ -1,0 +1,23 @@
+# Private configuration and transfer snapshots
+config/local.php
+config/mail.php
+*.backup
+.env
+.env.*
+!*.example
+database.sql/transfer-*.sql
+database.sql/transfer-*.json
+transfer-private/
+# Historical duplicate, customer uploads and local verification output
+/web-ban-do-gia-dung/
+/artifacts/
+/assets/uploads/
+/assets/images/reviews/
+/uploads/
+/assets/images/avatars/*
+!/assets/images/avatars/default_avatar.jpg
+*.log
+*.zip
+__pycache__/
+.DS_Store
+Thumbs.db

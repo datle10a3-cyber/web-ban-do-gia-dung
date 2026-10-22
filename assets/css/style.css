@@ -1,0 +1,151 @@
+:root {
+  --primary-light: #e3f2fd; /* Xanh dương nhạt bg */
+  --primary: #2196f3; /* Xanh dương accent */
+  --secondary: #ffc107; /* Vàng khuyến mãi */
+  --success: #4caf50;
+}
+
+body {
+  background-color: var(--primary-light);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+  color: var(--primary) !important;
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary); /* FIX: Bỏ transition */
+}
+.btn-primary:hover {
+  background-color: #1976d2; /* FIX: Bỏ transform */
+}
+
+.product-card {
+  border: none; /* FIX: Bỏ box-shadow và transition */
+  overflow: hidden;
+}
+.product-card:hover {
+  /* FIX: Bỏ transform và box-shadow change */
+}
+.product-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.banner-carousel .carousel-item {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* FIX: Bỏ text-shadow */
+}
+.banner-carousel .carousel-caption h1 {
+  font-size: 3rem;
+}
+.banner-carousel .carousel-caption .btn {
+  font-size: 1.2rem;
+  padding: 10px 30px;
+}
+
+.flash-sale {
+  /* FIX: Bỏ gradient, dùng solid */
+  background-color: var(--secondary);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.flash-sale::before {
+  content: "FLASH SALE";
+  position: absolute;
+  top: 0;
+  right: 0; /* FIX: Bỏ rgba, dùng solid; bỏ transform rotate */
+  background-color: #000;
+  color: white;
+  padding: 5px 20px;
+  font-weight: bold;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.countdown div {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  min-width: 50px;
+}
+
+.grid-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.sidebar-filter {
+  background: white;
+  padding: 20px;
+  border-radius: 10px; /* FIX: Bỏ box-shadow */
+  height: fit-content;
+  position: sticky;
+  top: 100px;
+}
+
+.rating {
+  color: #ffc107;
+}
+
+.quick-view-modal .modal-dialog {
+  max-width: 800px;
+}
+.product-gallery {
+  height: 400px;
+  object-fit: cover;
+}
+
+.notification-popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1050;
+  background: var(--success);
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .banner-carousel .carousel-item {
+    height: 300px;
+  }
+  .banner-carousel .carousel-caption h1 {
+    font-size: 2rem;
+  }
+  .grid-products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sidebar-filter {
+    position: static;
+  }
+}
+
+*,
+*::before,
+*::after {
+  transition: none !important;
+  animation: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+}

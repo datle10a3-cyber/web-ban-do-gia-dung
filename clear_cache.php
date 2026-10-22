@@ -1,0 +1,1 @@
+<?php require_once __DIR__.'/includes/init.php';if(!isAdmin()){http_response_code(403);exit('Không có quyền truy cập.');}if($_SERVER['REQUEST_METHOD']!=='POST'||!verifyCsrfToken($_POST['csrf']??null)){http_response_code(405);exit('Yêu cầu POST có xác thực.');}echo function_exists('opcache_reset')&&opcache_reset()?'Đã làm mới bộ nhớ đệm.':'Không có bộ nhớ đệm cần xóa.';

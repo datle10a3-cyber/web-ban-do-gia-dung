@@ -1,0 +1,55 @@
+:root {
+  --primary: #1976d2;
+  --primary-dark: #0d47a1;
+  --success: #4caf50;
+  --warning: #ffc107;
+  --danger: #e91e63;
+  --light: #f8f9fa;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #1976d2, #0d47a1) !important;
+}
+.bg-gradient-success {
+  background: linear-gradient(135deg, #4caf50, #388e3c) !important;
+}
+.bg-gradient-warning {
+  background: linear-gradient(135deg, #ffc107, #ffa000) !important;
+}
+.bg-gradient-danger {
+  background: linear-gradient(135deg, #e91e63, #c2185b) !important;
+}
+
+.sidebar .nav-link {
+  color: rgba(255, 255, 255, 0.9) !important;
+  padding: 12px 20px;
+  border-radius: 12px;
+  margin: 8px 0;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+  background: rgba(255, 255, 255, 0.2) !important;
+  transform: translateX(10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.sidebar .nav-link i {
+  width: 30px;
+}
+
+.card {
+  border-radius: 20px !important;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn {
+  border-radius: 12px;
+  font-weight: 600;
+  padding: 10px 20px;
+}

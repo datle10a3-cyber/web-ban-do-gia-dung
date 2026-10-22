@@ -1,0 +1,143 @@
+[
+  {
+    "keywords": ["chào", "hi", "hello"],
+    "response": "Chào bạn! Chào mừng đến với Gia Dụng Shop - nơi cung cấp đồ gia dụng chất lượng cao với giá siêu hời. Hôm nay bạn quan tâm sản phẩm nào ạ? Mình có nồi chiên không dầu Philips đang sale 20%, hay máy lọc nước Kangaroo siêu tiết kiệm? Kể mình nghe để tư vấn chi tiết nhé!"
+  },
+  {
+    "keywords": ["xin chào", "hey", "bạn ơi"],
+    "response": "Xin chào quý khách! Gia Dụng Shop luôn sẵn sàng hỗ trợ 24/7. Bạn đang tìm kiếm đồ gia dụng cho ngôi nhà thân yêu? Mình gợi ý tủ lạnh Samsung tiết kiệm điện lên đến 40%, hay máy giặt LG với công nghệ inverter? Hỏi mình bất cứ gì nhé, từ giá cả đến bảo hành!"
+  },
+  {
+    "keywords": ["nồi chiên không dầu", "giá"],
+    "response": "Nồi chiên không dầu đang hot lắm ạ! Giá từ 1.200.000đ đến 3.500.000đ tùy dung tích (4-8L). Ví dụ: Philips HD9252/90 giá 2.490.000đ, công suất 1400W, chiên giòn mà không dầu mỡ, tiết kiệm 90% chất béo. Bảo hành 24 tháng. Bạn muốn xem ảnh thực tế và video demo? Mình gửi link ngay!"
+  },
+  {
+    "keywords": ["nồi chiên không dầu", "philips", "bảo hành"],
+    "response": "Nồi chiên không dầu Philips bảo hành chính hãng 24 tháng, hỗ trợ đổi mới trong 7 ngày nếu lỗi. Tính năng nổi bật: công nghệ Rapid Air chiên nhanh, dễ vệ sinh, có app điều khiển. Giá model HD9270/91: 3.290.000đ (giảm 500k so với niêm yết). Bạn dùng cho gia đình bao nhiêu người để mình tư vấn size phù hợp?"
+  },
+  {
+    "keywords": ["máy lọc nước", "kangaroo", "thông số"],
+    "response": "Máy lọc nước Kangaroo: Công suất lọc 10-15L/giờ, lõi RO nhập khẩu Mỹ, loại bỏ 99.99% tạp chất. Model KG100HA giá 4.990.000đ, dung tích bình chứa 8L, kích thước 42x34x90cm. Lợi ích: Nước sạch tinh khiết, tiết kiệm điện 30%. Bạn lắp ở bếp hay văn phòng? Mình có dịch vụ lắp đặt miễn phí nội thành!"
+  },
+  {
+    "keywords": ["tủ lạnh", "samsung", "giá rẻ"],
+    "response": "Tủ lạnh Samsung giá rẻ nhất từ 5.990.000đ (model RT19M300BGS, 208L, 2 cửa). Tính năng: Làm lạnh nhanh, khử mùi Nano Silver, tiết kiệm điện A++. So với LG, Samsung bền hơn ở ngăn đông. Đang có chương trình trả góp 0% qua thẻ tín dụng. Bạn cần dung tích bao nhiêu để mình recommend?"
+  },
+  {
+    "keywords": ["máy giặt", "lg", "nên mua"],
+    "response": "Nên mua máy giặt LG vì công nghệ AI DD bảo vệ quần áo, giặt sạch sâu mà êm ái. Model WV1409W4M giá 9.490.000đ, tải 9kg, 1400 vòng vắt, bảo hành động cơ 10 năm. Ví dụ: Giặt chăn mền dày chỉ 39 phút. Khách hàng feedback 4.8/5 sao. Bạn giặt cho gia đình 4 người phải không ạ?"
+  },
+  {
+    "keywords": ["điều hòa", "daikin", "công suất"],
+    "response": "Điều hòa Daikin công suất từ 9000BTU (cho phòng 15m²) đến 24000BTU (phòng 40m²). Model FTKC25UAVMV giá 8.990.000đ, inverter tiết kiệm 50% điện, lọc bụi PM2.5. Kích thước dàn lạnh: 77x28x22cm. Lắp đặt nhanh trong 2h, bảo hành 5 năm máy nén. Bạn ở khu vực nào để check hàng tồn kho?"
+  },
+  {
+    "keywords": ["quạt hơi nước", "midea", "giảm giá"],
+    "response": "Quạt hơi nước Midea đang giảm 15%: Model MF-12V giá 1.290.000đ, dung tích 12L, 3 tốc độ gió, làm mát diện tích 20m². Tính năng: Ion âm khử khuẩn, remote điều khiển. So với Sunhouse, Midea êm hơn (tiếng ồn <40dB). Mua ngay tặng kèm bình nước dự phòng!"
+  },
+  {
+    "keywords": ["bếp từ", "bosch", "màu sắc"],
+    "response": "Bếp từ Bosch có màu đen sang trọng, kính Schott Ceran chịu lực. Model PID675DC1E giá 18.990.000đ, 3 vùng nấu, công suất max 7400W. Kích thước: 60x52cm. Lợi ích: Nấu nhanh gấp 2 lần bếp gas, an toàn chống cháy. Bạn thích màu đen hay bạc? Mình có cả hai!"
+  },
+  {
+    "keywords": ["máy hút bụi", "dyson", "loại nào tốt"],
+    "response": "Máy hút bụi Dyson tốt nhất là model V15 Detect giá 19.990.000đ, pin 60 phút, laser phát hiện bụi ẩn, lọc HEPA 99.97%. So với Philips, Dyson mạnh hơn ở hút lông thú cưng. Khách hàng dùng 2 năm vẫn như mới. Bạn dùng cho sàn gỗ hay thảm?"
+  },
+  {
+    "keywords": ["lò vi sóng", "sharp", "dung tích"],
+    "response": "Lò vi sóng Sharp dung tích từ 20L đến 32L. Model R-222VN giá 1.490.000đ, 800W, 5 mức công suất, hâm nóng nhanh 30 giây. Tính năng: Rã đông theo trọng lượng, khóa trẻ em. Phù hợp gia đình nhỏ. Bạn hay dùng để hâm hay nướng?"
+  },
+  {
+    "keywords": ["máy xay sinh tố", "philips", "chi tiết"],
+    "response": "Máy xay sinh tố Philips HR2222/00 giá 1.190.000đ, công suất 700W, cối thủy tinh 2L, 5 tốc độ + pulse. Tính năng: Xay đá viên mịn, dễ tháo lắp vệ sinh. Ví dụ: Xay sinh tố chuối chỉ 20 giây. Bảo hành 24 tháng, tặng kèm cốc xay cá nhân!"
+  },
+  {
+    "keywords": ["nồi cơm điện", "cuckoo", "tốt nhất"],
+    "response": "Nồi cơm điện Cuckoo tốt nhất model CR-0631F giá 2.990.000đ, dung tích 1.08L, công nghệ IH nấu cơm ngon như nồi đất. Tính năng: Giữ ấm 24h, menu đa dạng (cơm trắng, gạo lứt, cháo). So với Panasonic, Cuckoo bền hơn 5 năm. Bạn nấu cho bao nhiêu người?"
+  },
+  {
+    "keywords": ["bình đun siêu tốc", "lock&lock", "kích thước"],
+    "response": "Bình đun siêu tốc Lock&Lock dung tích 1.7L, kích thước 22x15x24cm. Model EJK341 giá 490.000đ, 1800W, đun sôi 2 phút. Vật liệu: Inox 304 an toàn, tự ngắt khi sôi. Lợi ích: Tiết kiệm thời gian sáng sớm. Màu bạc hoặc đen, bạn chọn nào?"
+  },
+  {
+    "keywords": ["máy pha cà phê", "delonghi", "thông số"],
+    "response": "Máy pha cà phê DeLonghi EC685.M giá 5.990.000đ, áp lực 15 bar, dung tích 1.1L, kích thước 15x30x33cm. Tính năng: Pha espresso/cappuccino, vòi đánh sữa. Ví dụ: Pha 2 tách chỉ 1 phút. Bảo hành 24 tháng, tặng kèm bộ cốc cao cấp!"
+  },
+  {
+    "keywords": ["máy sấy tóc", "panasonic", "giá"],
+    "response": "Máy sấy tóc Panasonic giá từ 590.000đ. Model EH-NA98 giá 2.990.000đ, công suất 1800W, ion âm dưỡng tóc, 3 tốc độ. Lợi ích: Sấy nhanh mà không khô tóc, giảm gãy rụng 20%. Đang sale tặng lược chải. Bạn tóc dài hay ngắn để tư vấn?"
+  },
+  {
+    "keywords": ["bàn ủi", "electrolux", "công suất"],
+    "response": "Bàn ủi Electrolux ESI5224 giá 790.000đ, công suất 2400W, mặt đế ceramic chống dính. Tính năng: Phun hơi mạnh, tự ngắt an toàn. Kích thước nhỏ gọn, dễ mang theo. Ủi nhanh gấp 2 lần bàn ủi cũ. Bạn ủi đồ cotton hay lụa?"
+  },
+  {
+    "keywords": ["máy hút mùi", "bosch", "bảo hành"],
+    "response": "Máy hút mùi Bosch bảo hành 36 tháng. Model DWB06W651 giá 9.990.000đ, công suất hút 650m³/h, 3 mức tốc độ, lọc than hoạt tính. Lợi ích: Khử mùi bếp nhanh, tiếng ồn thấp <50dB. Lắp đặt miễn phí, bạn có bếp đảo không?"
+  },
+  {
+    "keywords": ["lò nướng", "sanaky", "nên mua"],
+    "response": "Nên mua lò nướng Sanaky vì giá rẻ chất lượng tốt. Model VH-509S giá 1.490.000đ, dung tích 50L, 2000W, nướng đối lưu đều. Tính năng: Hẹn giờ 60 phút, đèn chiếu sáng. Nướng gà nguyên con ngon giòn. Khách feedback cao, bạn thử nhé!"
+  },
+  {
+    "keywords": ["máy rửa chén", "beko", "dung tích"],
+    "response": "Máy rửa chén Beko dung tích 14 bộ chén. Model DFN16420W giá 12.990.000đ, 6 chương trình rửa, tiết kiệm nước 9.5L/lần. Kích thước 60x60x85cm. Lợi ích: Rửa sạch 99% vi khuẩn, khô tự nhiên. Phù hợp gia đình 4-6 người."
+  },
+  {
+    "keywords": ["tủ đông", "sanaky", "giá rẻ"],
+    "response": "Tủ đông Sanaky giá rẻ model VH-2899W giá 5.490.000đ, dung tích 280L, làm lạnh sâu -18°C, gas R600a thân thiện môi trường. Tính năng: Khóa an toàn, bánh xe di chuyển. Tiết kiệm điện 1.2kWh/ngày. Bạn dùng để trữ thịt hay kem?"
+  },
+  {
+    "keywords": ["máy lọc không khí", "sharp", "thông số"],
+    "response": "Máy lọc không khí Sharp model FP-J30E-B giá 2.990.000đ, diện tích 23m², lọc HEPA + Plasmacluster diệt khuẩn 99%. Công suất 23W, tiếng ồn 15dB. Lợi ích: Giảm dị ứng, khử mùi thú cưng. Đang có quà tặng filter thay thế!"
+  },
+  {
+    "keywords": ["bảo hành", "chung"],
+    "response": "Chính sách bảo hành tại Gia Dụng Shop: Tất cả sản phẩm chính hãng, bảo hành từ 12-60 tháng tùy loại (ví dụ: Tủ lạnh 10 năm động cơ). Hỗ trợ sửa chữa tại nhà miễn phí trong nội thành, đổi mới nếu lỗi nhà sản xuất trong 7-30 ngày. Bạn hỏi về sản phẩm cụ thể nào để mình check chi tiết?"
+  },
+  {
+    "keywords": ["giao hàng", "ship", "thời gian"],
+    "response": "Giao hàng siêu tốc: Nội thành HCM/HN trong 2-4h, tỉnh lẻ 1-3 ngày. Phí ship từ 0đ (đơn >500k) đến 50k. Kiểm tra hàng trước thanh toán, hỗ trợ lắp đặt miễn phí cho máy lạnh/máy giặt. Đang có chương trình freeship toàn quốc cho đơn >2tr!"
+  },
+  {
+    "keywords": ["đổi trả", "hoàn tiền"],
+    "response": "Chính sách đổi trả linh hoạt: Đổi mới trong 7 ngày nếu lỗi, hoàn tiền 100% nếu không hài lòng (áp dụng sản phẩm chưa dùng). Quy trình đơn giản: Gửi ảnh lỗi qua Zalo, mình pickup miễn phí. Hàng ngàn khách đã đổi thành công, bạn yên tâm nhé!"
+  },
+  {
+    "keywords": ["trả góp", "0%"],
+    "response": "Trả góp 0% lãi suất qua Home Credit hoặc thẻ tín dụng (Visa/Master). Ví dụ: Tủ lạnh 10tr trả trước 0đ, góp 833k/tháng x 12 tháng. Thủ tục online chỉ 5 phút, duyệt nhanh. Bạn cần góp sản phẩm nào, mình tính toán ngay!"
+  },
+  {
+    "keywords": ["liên hệ", "hotline", "zalo"],
+    "response": "Liên hệ ngay để được tư vấn miễn phí: Hotline 1900-1234 (8h-22h), Zalo OA: <a href=\"https://zalo.me/0365539435\" target=\"_blank\" style=\"color:#00ff00;font-weight:bold;\">Chat Zalo ngay</a>. Hoặc ghé cửa hàng tại 123 Nguyễn Huệ, Q1, HCM. Mình online 24/7 đấy ạ!"
+  },
+  {
+    "keywords": ["tình trạng đơn hàng", "mã đơn"],
+    "response": "Bạn cung cấp mã đơn hàng (ví dụ: GD123456) để mình check nhé! Mình sẽ báo chi tiết: Đang đóng gói, đang giao, hay đã nhận. Nếu chậm trễ, mình tặng voucher 100k bù đắp. Đơn của bạn là gì ạ?"
+  },
+  {
+    "keywords": ["khuyến mãi", "sale", "giảm giá"],
+    "response": "Khuyến mãi hot tuần này: Giảm đến 30% nồi chiên không dầu, tặng quà khi mua tủ lạnh >8tr (máy xay mini). Flash sale hàng ngày từ 12h-14h. Đăng ký email để nhận mã giảm 200k cho đơn đầu. Bạn săn deal nào đây?"
+  },
+  {
+    "keywords": ["so sánh", "nồi chiên", "philips vs xiaomi"],
+    "response": "So sánh nồi chiên Philips vs Xiaomi: Philips (3tr) chất lượng cao, bền 5 năm, công nghệ Airfryer; Xiaomi (1.5tr) giá rẻ, app thông minh nhưng lõi kém hơn. Nên chọn Philips nếu dùng lâu dài. Bạn ngân sách bao nhiêu để mình tư vấn thêm?"
+  },
+  {
+    "keywords": ["hướng dẫn sử dụng", "máy giặt lg"],
+    "response": "Hướng dẫn sử dụng máy giặt LG: 1. Chọn chương trình (cotton/quick). 2. Đổ bột giặt. 3. Bấm start. Lưu ý: Không quá tải, vệ sinh lồng giặt hàng tháng. Mình gửi video tutorial qua Zalo nhé? Model của bạn là gì?"
+  },
+  {
+    "keywords": ["lắp đặt", "điều hòa"],
+    "response": "Dịch vụ lắp đặt điều hòa miễn phí nội thành, thợ chuyên nghiệp đến trong 24h. Bao gồm ống đồng 3m, giá đỡ. Phí tỉnh lẻ 500k. An toàn, sạch sẽ, test chạy trước bàn giao. Bạn đặt lịch ngày nào ạ?"
+  },
+  {
+    "fallback": true,
+    "responses": [
+      "Ồ, câu hỏi thú vị đấy ạ! Mình chưa nắm rõ hết, bạn giải thích thêm chút xíu nhé? Ví dụ: Bạn hỏi về giá máy lọc nước hay cách lắp tủ lạnh?",
+      "Bạn đang nghĩ đến sản phẩm gia dụng nào ạ? Mình tư vấn chi tiết từ A-Z: giá, spec, bảo hành. Hoặc chat Zalo để nói chuyện trực tiếp!",
+      "Mình hơi 'lú' với câu này, sorry ạ! Bạn muốn hỏi về khuyến mãi, giao hàng, hay sản phẩm cụ thể? Mình sẵn sàng hỗ trợ luôn!",
+      "Để mình chuyển ngay cho bạn nhân viên xinh đẹp tư vấn 1-1 nhé! Zalo hỗ trợ 24/7: <a href=\"https://zalo.me/0365539435\" target=\"_blank\" style=\"color:#00ff00;font-weight:bold;font-size:18px;\">03655.39435 (Nhấn chat ngay)</a>"
+    ]
+  }
+]
